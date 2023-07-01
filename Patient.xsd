@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://bharaththippireddy.com/Patient"
+        xmlns:tns="http://bharaththippireddy.com/Patient"
+        attributeFormDefault="unqualified">
+
+    <element name="patient" type="tns:Patient" />
+
+    <complexType name="Patient">
+        <sequence>
+            <element name="id" type="tns:ID" />
+            <element name="email" type="string" />
+        </sequence>
+    </complexType>
+
+    <simpleType name="ID">
+        <restriction>
+            <maxLength value="76"/>
+        </restriction>
+    </simpleType>
+
+
+
+</schema>

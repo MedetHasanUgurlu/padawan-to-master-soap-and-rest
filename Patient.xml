@@ -1,0 +1,4 @@
+<pat:patient xmlns:pat="http://bharaththippireddy.com/Patient">
+  <id>12323</id>
+  <email>string</email>
+</pat:patient>
